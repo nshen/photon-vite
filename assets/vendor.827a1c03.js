@@ -298,7 +298,7 @@ async function load(module, imports) {
 }
 async function init(input) {
   if (typeof input === "undefined") {
-    input = "/assets/photon_web_bg.wasm";
+    input = "/photon-vite/assets/photon_web_bg.wasm";
   }
   const imports = {};
   imports.wbg = {};

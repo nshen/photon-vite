@@ -1,4 +1,4 @@
-import { i as init, o as open_image, f as filter, w as watermark, p as putImageData } from "./vendor.b84d2705.js";
+import { i as init, o as open_image, f as filter, w as watermark, p as putImageData } from "./vendor.827a1c03.js";
 const p = function polyfill() {
   const relList = document.createElement("link").relList;
   if (relList && relList.supports && relList.supports("modulepreload")) {
